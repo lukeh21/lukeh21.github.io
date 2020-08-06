@@ -1,0 +1,27 @@
+        body {font-family: 'Red Rpse', cursive;
+        background-image: repeating-linear-gradient(to bottom, white, darkgrey, slategrey);
+        color: lightblue}
+        h1 {color: navy;
+        margin: 5px;
+        padding: 20px;
+        font-size: 200%;}
+        h2 {color: darkblue}
+        a {color: lightskyblue}
+        h3 {color: royalblue}
+        p {color: mediumblue;
+        background-image: repeating-linear-gradient(to bottom, rgb(112, 128, 144, 0.26),rgb(255, 0, 0, 0.26), rgb(211, 211, 211, 0.26));
+        background-size: cover}
+        #firstnav {background-color: midnightblue;
+        border-style: ridge;
+        border-radius: 0px;
+        border-width: 5px;
+        padding: 2px;
+        margin: 3px;
+        text-decoration: none;}
+        #firstnav:hover {text-decoration-color: red}
+        .class {display: flex;
+        position: fixed;}
+        
+        @media screen and (max-width: 900px) {
+                background-color: black
+        }
